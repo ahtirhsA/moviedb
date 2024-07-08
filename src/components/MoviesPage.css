@@ -1,0 +1,62 @@
+
+@media (min-width:768px){
+.img{
+    height:200px;
+    width:230px;
+    margin-bottom:10px;
+}
+
+.heading{
+    font-size:15px;
+}
+
+.para{
+    font-size:12px;
+}
+}
+
+@media (max-width:768px){
+    .img{
+        height:100px;
+        width:100px;
+        margin-bottom:10px;
+
+    }
+    .heading{
+        font-size:6px;
+    }
+    .para{
+        font-size:3px;
+    }
+    
+}
+
+
+
+.heading{
+    font-family:'Roboto';
+    color:#ffffff;
+    font-weight:600;
+    
+}
+
+.para{
+    font-family:'Roboto';
+    color:#ffffff;
+    margin-top:1px;
+    font-weight:600; 
+}
+
+.li{
+    display: flex; /* Use flexbox to align items */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  text-align: center; 
+    margin-right:10px;
+    margin-bottom:10px;
+    
+}
+
+.lin{
+    text-decoration:none;
+}
